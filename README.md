@@ -1,4 +1,6 @@
-# express-jwt-authz ![](https://travis-ci.org/auth0/express-jwt-authz.svg?branch=master)
+# express-jwt-authz
+
+This fork of https://github.com/auth0/express-jwt-authz supports [restify](https://github.com/restify/node-restify) as well as express.
 
 Validate a JWTs `scope` to authorize access to an endpoint.
 
@@ -6,7 +8,9 @@ Validate a JWTs `scope` to authorize access to an endpoint.
 
     $ npm install express-jwt-authz
 
-> `express@^4.0.0` is a peer dependency. Make sure it is installed in your project.
+> `restify@^8.5.1` is a peer dependency.
+> `express@^4.0.0` is a peer dependency.
+> Make sure one of them is installed in your project.
 
 ## Usage
 
@@ -76,11 +80,13 @@ The JWT must have a `scope` claim and it must either be a string of space-separa
 
 ## Issue Reporting
 
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
+For issues directly related to restify support, please report them at this reposittory issues section.
+
+If you have found a bug or if you have a feature request, please report them at https://github.com/auth0/express-jwt-authz/issues. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
 
 ## Author
 
-[Auth0](https://auth0.com)
+[June07](https://june07.com)
 
 ## License
 

@@ -1,6 +1,9 @@
-The MIT License (MIT)
+Copyright for portions of @667/express-jwt-authz are held by Auth0, Inc.
+<support@auth0.com> (http://auth0.com), 2016 as part of express-jwt-authz.
+All other copyright for project @667/express-jwt-authz are held by June07
+<support@june07.com> (https://june07.com), 2021.
 
-Copyright (c) 2016 Auth0, Inc. <support@auth0.com> (http://auth0.com)
+The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
